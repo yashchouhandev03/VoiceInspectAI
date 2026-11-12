@@ -7,7 +7,7 @@ import {
 } from 'lucide-react'
 import './App.css'
 
-const API = '/api'
+const API = 'https://voiceinspectai.onrender.com/api'
 
 function App() {
   const [inspections, setInspections] = useState([])
